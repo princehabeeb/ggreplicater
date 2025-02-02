@@ -7,29 +7,29 @@ export default function Navbar() {
         <nav className="bg-blue-800">
             <div className="container mx-auto flex justify-between items-center p-4">
                 <div className="flex items-center">
-                    <a href="/" className="titleb">
+                    <Link href="/" className="titleb">
                         <Image
                             src="/logo.png"
-                            alt="GGReplicater Logo"
+                            alt="AIReplicater Logo"
                             width={32}
                             height={32}
                             className="mr-2"
                         />
-                        GGReplicater
-                    </a>
+                        AI Replicater
+                    </Link>
                 </div>
 
-                <div className="button-container">
-                    <a href="https://gauresh.vercel.app" target="_blank" rel="noopener noreferrer" className="buttons">
+                {/* <div className="button-container">
+                    <Link href="https://gauresh.vercel.app" target="_blank" rel="noopener noreferrer" className="buttons">
                         Website
-                    </a>
-                    <a href="https://twitter.com/hseruag" target="_blank" rel="noopener noreferrer" className="buttons">
+                    </Link>
+                    <Link href="https://twitter.com/hseruag" target="_blank" rel="noopener noreferrer" className="buttons">
                         Twitter
-                    </a>
-                    <a href="https://github.com/gaureshpai" target="_blank" rel="noopener noreferrer" className="buttons">
+                    </Link>
+                    <Link href="https://github.com/gaureshpai" target="_blank" rel="noopener noreferrer" className="buttons">
                         GitHub
-                    </a>
-                </div>
+                    </Link>
+                </div> */}
             </div>
         </nav>
     );
